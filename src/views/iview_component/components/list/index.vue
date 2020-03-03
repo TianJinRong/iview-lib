@@ -2,14 +2,15 @@
   <div class="">
     <h1>iview lib</h1>
     <br>
-    <Tabs value="list">
-      <TabPane label="Instruction" name="instruction">
-        <ul>
-          <li>Just click the component and copy the code.
-          </li>
-        </ul>
+      <Alert type="info" show-icon>
+        Instruction
+        <span slot="desc">Just click the component and copy the code. Have fun :)</span>
+    </Alert>
+    <Tabs>
+      <TabPane label="Inputs" name="inputs">
+        <h2>inputs</h2>
       </TabPane>
-      <TabPane label="List" name="list">
+      <TabPane label="Buttons" name="buttons">
         <h2>buttons</h2>
         <br>
         <h3 class="m-component__h3 l-component__h3">size:default</h3>
